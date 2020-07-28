@@ -1,0 +1,30 @@
+.dot {
+    height: 25px;
+    width: 25px;
+    background-color: #cc9933;
+    border-radius: 50%;
+    display: inline-block;
+    color: #fff;
+    padding-top: 3px;
+    margin-top: 30px;
+  }
+
+  .btn{
+    background-color: #cc9933;
+    color: #fff;
+  }
+
+  .btn-back{
+    margin-top: 30px;
+  }
+
+  .btn-novo{
+    margin-top: 30px;
+  }
+
+  .mg{
+    background-color: #2f7fae;
+    color: #ffff;
+  }
+
+  

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.css">
+    <title>Meus Locais</title>
+</head>
+<body>
+    <div class="container">
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+            <div class="col-xs-6">
+                <h1 class="text-center"><span class="title"></span> Local</h1>
+    
+            </div>
+            <div class="col-xs-6 ">
+                <a href="#" title="Voltar">
+                    <div class="btn btn-xs btn-back text-center pull-right">
+                        <i class="fa fa-reply"></i>
+                    </div>
+                </a>
+                
+            </div>
+    
+            <div class="row"></div>
+            <form id="form">
+                <input type="hidden" name="id" id="id" value="0">
+                <div class="row">
+                    <div class="col-xs-12 col-md-2">
+                      <label for="" class="nome pull-right">Nome:</label>
+                    </div>
+                    <div class="col-xs-12  col-md-10">
+                        <input class="form-control nome" id="nome" name="nome" required/>
+        
+                    </div>
+                </div>
+                <br>
+                
+                <div class="row">
+                    <div class="col-xs-12  col-md-2">
+                      <label for="" class="nome pull-right">CEP:</label>
+                    </div>
+                    <div class="col-xs-12  col-md-3">
+                        <input class="form-control cep" id="cep" name="cep" required/>    
+                    </div>    
+                    
+                </div>
+
+                <br>
+                <div class="row">
+
+                    <div class="col-xs-12  col-md-2">
+                        <label for="" class="nome pull-right">Logradouro:</label>
+                      </div>
+                      <div class="col-xs-12  col-md-5">
+                          <input class="form-control logradouro" id="logradouro" name="logradouro" required/>
+                      </div>
+    
+
+                </div>
+    
+                <br>
+    
+                <div class="row">
+                    <div class="col-xs-12 col-md-2">
+                      <label for="" class="nome pull-right">Complemento:</label>
+                    </div>
+                    <div class="col-xs-12  col-md-3">
+                        <input class="form-control complemento" id="complemento" name="complemento" required/>    
+                    </div>
+                </div>
+    
+                <br>    
+
+                <div class="row">
+                    <div class="col-xs-12 col-md-2">
+                        <label for="" class="nome pull-right">Número:</label>
+                      </div>
+                      <div class="col-xs-12  col-md-2">
+                          <input class="form-control numero" id="numero" name="numero" required/>    
+                      </div>
+                </div>
+
+                <br>
+
+    
+                <div class="row">
+                    <div class="col-xs-12 col-md-2">
+                      <label for="" class="nome pull-right">Bairro:</label>
+                    </div>
+                    <div class="col-xs-12  col-md-3">
+                        <input class="form-control bairro" id="bairro" name="bairro" required/>    
+                    </div>
+                </div>
+
+
+                <br>
+    
+                <div class="row">
+                    <div class="col-xs-12 col-md-2">
+                      <label for="" class="nome pull-right">Uf:</label>
+                    </div>
+                    <div class="col-xs-12  col-md-3">
+                        <input class="form-control uf" id="uf" name="uf" required/>    
+                    </div>
+                </div>
+
+                <br>
+
+
+                <div class="row">
+                    <div class="col-xs-12 col-md-2">
+                      <label for="" class="nome pull-right">Cidade</label>
+                    </div>
+                    <div class="col-xs-12  col-md-3">
+                        <input class="form-control cidade" id="cidade" name="cidade" required/>    
+                    </div>
+                </div>
+
+                <br>
+
+                <div class="row">
+                    <div class="col-xs-12 col-md-2">
+                      <label for="" class="nome pull-right">Data:</label>
+                    </div>
+                    <div class="col-xs-12  col-md-3">
+                        <input type="date" class="form-control data" id="data" required/>    
+                    </div>
+                </div>
+
+                <hr>
+                <div class="row">
+                    <div class="col-xs-12 col-md-2">
+                        
+                        
+                      </div>
+                      <div class="col-xs-12  col-md-3">
+                        <button type="submit" class="btn btn-save" disabled>Salvar</button>
+                    </div>
+                </div>
+    
+    
+        </div>
+        <div class="col-md-2"></div>
+        
+
+        </form>
+
+        
+    </div>
+    <script src="assets/js/jquery-3.5.1.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.mask.js"></script>
+    <script src="assets/js/local.js"></script>
+</body>
+</html>
